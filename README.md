@@ -4,7 +4,7 @@
 Automate Google Form / Google Form Submission on Automation experience.
 
 ## Installation Instructions:
-Clear steps to set up and run the project locally.
+Clear steps to set up and run the project locally.please check Under the "Important Links" section, each checkpoint provides valuable insights.
 > Example:
 ```
 # java version 17
@@ -12,8 +12,7 @@ java --version
 ```
 
 ## Usage and Examples:
-Provide sample code or usage scenarios to showcase how the project works.
-Each Test Method in the testcase clearly explains the flow of my project,By looking at the method name u can understand what it does internally.
+Each test method in TestCases.java provides clear insight into the automation process flow. Simply by examining the method name, you can understand its internal functionality.
 > Example:
 ```
 # to run the project
