@@ -15,15 +15,8 @@ public class App {
 
         //TODO: call your test case functions one after other here
 
-        tests.googleFormLink();
-        tests.enterName();
-        tests.yAutomation();
-        tests.selectRadioButton();
-        tests.selectCheckBoxes();
-        tests.selectDropDown();
-        tests.selectDate();
-        tests.setTime();
-        tests.SubmitForm();
+        tests.googleFormAutomation();
+       
 
         //END Tests
 

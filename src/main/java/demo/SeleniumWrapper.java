@@ -3,6 +3,7 @@ package demo;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class SeleniumWrapper {
@@ -13,7 +14,10 @@ public class SeleniumWrapper {
 
     public SeleniumWrapper(WebDriver driver) {
         this.driver = driver;
-        js = (JavascriptExecutor)driver;      
+        js = (JavascriptExecutor)driver;   
+        System.out.println("Constructor: TestCases");
+        //WebDriverManager.chromedriver().timeout(30).setup(); // mentor has suggested to comment as part of CR        
+       // wrapper = new SeleniumWrapper(driver);   
     }
 
 
